@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>header en resposiva</title>
+</head>
+<body>
+	<style>
+		html{background:#000000; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+		
+		.contenedor{margin:auto; width:100%; max-width:800px; }
+		header{
+			background:url(imagen/tierra.png); 
+			height:135px; 
+			background-repeat:no-repeat; 
+			background-position:center; 
+			background-size:cover;
+			}
+
+        nav{display:flex;
+        	
+           flex-direction:row;
+            justify-content:flex-end;
+            align-items:center;
+
+           
+        }
+
+            nav a{color:#FFFFFF; text-decoration:none; position:relative; top:25px;  right:30px;font-size:9pt; margin:5px;}
+            nav a:hover{background:#FF00FF; padding:5px; border-radius:5px;}
+
+
+             img{width:17%; max-width:450px; position:relative; top:18px; left:10px; }
+
+            p{margin: 40px 60px; width:320px; color:#FFFFFF; font-family:futura; font-size:14pt; }
+
+
+            main{display:flex;
+            	flex-wrap:wrap;
+            	justify-content:flex-start;
+            	height:40px;
+
+            }
+
+            main article{position:relative; left:50px;
+            	}
+
+            main h2{color:#FFFFFF; }
+            main p{color:#FFFFFF; font-size:10pt; position:relative; bottom:30px; right:60px; text-align:justify-all; height: 100%; max-height:250px; width:100%; max-width:250px; overflow:scroll;  }
+
+            aside{margin: auto auto;}
+            aside img{width:100%; height:50%;}
+
+            iframe{position:relative; top:20px; margin:auto;}
+
+            .logo_naza img{width:100%; max-width:500px; position:relative; left:5px; }
+
+
+            @media only screen and (max-width: 600px){
+	main aside{flex-direction:column; 
+	}
+            	
+            
+            
+
+
+
+
+	
+		
+	</style>
+
+	<div class="contenedor">
+	<header>
+
+		<img src="imagen/nasa.png" alt="nasa">
+		
+		<nav>
+			
+		<a href="#">inicio</a>
+		<a href="#">pagina 1</a>
+		<a href="#">pagina 2</a>
+		<a href="#">pagina 3</a>
+		<a href="#">pagina 4</a>
+		</nav>
+
+		<p>Welcom Home Earthling</p>
+
+		</header>
+
+		<main>
+			<article >
+				<h2>El espacio</h2>
+				<p>El espacio exterior o espacio vacío, también simplemente llamado espacio, se refiere a las regiones relativamente vacías del universo fuera de las atmósferas de los cuerpos celestes. Se usa espacio exterior para distinguirlo del espacio aéreo y las zonas terrestres. El espacio exterior no está completamente vacío de materia (es decir, no es un vacío perfecto) sino que contiene una baja densidad de partículas, predominantemente gas hidrógeno, así como radiación electromagnética. Aunque se supone que el espacio exterior ocupa prácticamente todo el volumen del universo y durante mucho tiempo se consideró prácticamente vacío, o repleto de una sustancia llamada éter, ahora se sabe que contiene la mayor parte de la materia del universo. Esta materia está formada por radiación electromagnética, partículas cósmicas, neutrinos sin masa e incluso formas de materia no bien conocidas como la materia oscura y la energía oscura. De hecho en el universo cada uno de estos componentes contribuye al total de la materia, según estimaciones, en las siguientes proporciones aproximadas: elementos pesados (0.03 %), materia estelar (0.5 %), neutrinos (0.3 %), estrellas (0.5 %) hidrógeno y helio libres (4 %) materia oscura (aprox. 25 %) y energía oscura (aprox. 70 %); total 100.33 %, por lo que sobra un 0.33 % sin estimar. La naturaleza física de estas últimas es aún apenas conocida. Solo se conocen algunas de sus propiedades por los efectos gravitatorios que imprimen en el período de revolución de las galaxias, por un lado, y en la expansión acelerada del Universo o inflación cósmica.</p>
+
+				
+			</article>
+
+
+		
+          <aside><img src="imagen/273px-Apollo_11_Launch_-_GPN-2000-000630.jpg" alt=""></aside>
+<div class="logo_naza">
+	<img src="imagen/NASA.jpg" alt="nasa">
+</div>
+	</div>
+           
+	
+			
+
+
+
+</body>
+</html>
